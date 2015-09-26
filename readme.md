@@ -3,7 +3,7 @@ generate silly names, then filter them using a markov model of word plausibility
 
 # Tutorial
 1. Clone
-2. Modify lines 90-109 as needed
+2. Modify [lines 90-108](https://github.com/maxentile/onoma/blob/master/onoma.py#L90-L108) as needed
 3. Run `python onoma.py`
 4. Profit
 
