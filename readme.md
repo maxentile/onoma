@@ -1,0 +1,24 @@
+# onoma
+generate silly names, then filter them using a markov model of word plausibility
+
+# Tutorial
+1. Clone
+2. Modify lines 90-109 as needed
+3. Run `python onoma.py`
+4. Profit
+
+# Example output
+There are 7072 possible names given the inputs
+
+Sampling 1000 of these...
+
+The top-100 names:
+['biocal', 'statry', 'isomet', 'densico', 'gencaler', 'reactic', 'gencalic', 'evocal', 'caltech', 'caldyn', 'calorinc', 'chemmet', 'excally', 'exastat', 'spacely', 'phaseic', 'metlr', 'transcal', 'exacalic', 'gencalinc', 'statbit', 'kelvinco', 'isostater', 'syncalic', 'genspace', 'statelr', 'evometer', 'metameter', 'calorful', 'metacalor', 'netcalor', 'moldensi', 'statenix', 'chemmetic', 'intermetic', 'genstatry', 'calordyn', 'synmetr', 'postcaler', 'molphase', 'oversolu', 'ubercalor', 'metnix', 'ubercally', 'transstate', 'postheater', 'phaselr', 'genstatly', 'evostater', 'multimet', 'overstatic', 'evophase', 'overphase', 'nanostatic', 'instastate', 'postheatic', 'gencalgen', 'protostate', 'proteomet', 'intersolu', 'synmetic', 'instameter', 'overcalinc', 'postcally', 'exmetrer', 'multicaler', 'enthalply', 'netheatly', 'overmetric', 'synspace', 'nanometinc', 'chemmetry', 'molmetric', 'chemmetrer', 'heatdyn', 'ubermetrer', 'reactful', 'excalful', 'chemheat', 'evometly', 'genstateic', 'intermetinc', 'netdensi', 'netmetly', 'autostater', 'genheatry', 'boltzic', 'intermetly', 'autosolu', 'autophase', 'protostater', 'ubermetric', 'evometco', 'netcalorer', 'overstatry', 'gencalorly', 'exastatinc', 'isodensico', 'autoheat', 'dynaheat']
+
+
+The bottom-100 names:
+['multiboltzgram', 'thermoenthalpgram', 'microboltznix', 'multiboltzdyn', 'dynaboltznix', 'instaboltznix', 'uberboltznix', 'nanoboltznix', 'autoboltzgram', 'dynaenthalpdyn', 'thermoboltzry', 'thermoboltzbit', 'multiboltzbit', 'protoensemblnix', 'autoensemblnix', 'instaensemblnix', 'proteoboltzco', 'microboltzdyn', 'uberboltzgram', 'instaboltztech', 'thermoensemblbit', 'protoboltzry', 'proteoensemblble', 'interboltzdyn', 'thermoenthalptech', 'postboltzry', 'dynaarraynix', 'postboltzlr', 'instaarraygram', 'instaenthalpgen', 'protoenthalpful', 'transreactdyn', 'exaboltzgram', 'autoenthalpbit', 'autoensembltech', 'thermoensemblble', 'dynaboltzry', 'exboltztech', 'multiensembllr', 'autoboltzble', 'multiensemblgen', 'dynaboltzlr', 'protoensemblbit', 'autoensemblbit', 'proteoenthalpinc', 'postboltzble', 'dynaensemblbit', 'proteoreactnix', 'interboltzry', 'molboltzful', 'nanoboltzry', 'dynaarrayful', 'proteokelvindyn', 'dynaarraytech', 'bioboltztech', 'protoenthalpble', 'chementhalpgram', 'netboltzlr', 'interboltzgen', 'microenthalptech', 'molboltzry', 'transkelvinlr', 'evoensembldyn', 'metaenthalpgen', 'evoensembltech', 'multiheatdyn', 'nanoenthalpful', 'proteokelvinble', 'synenthalpdyn', 'dynaboltzco', 'instaboltzco', 'transenthalpful', 'chemboltzbit', 'uberenthalpnix', 'evoboltzble', 'dynakelvinlr', 'transensembltech', 'postenthalpnix', 'netboltzble', 'evoensemblful', 'evoenthalptech', 'thermoarraybit', 'multikelvindyn', 'transreactgen', 'transreactbit', 'metaarrayful', 'proteokelvininc', 'transreacttech', 'proteokelvinly', 'exaboltzlr', 'uberensemblgram', 'evoensembllr', 'thermokelvinble', 'nanoenthalplr', 'proteodensiinc', 'synkelvinnix', 'thermokelvinry', 'evoensemblgen', 'metaensembllr', 'isoboltzgen']
+
+
+100 random names:
+['bioboltzco', 'dynastattech', 'genreactbit', 'autosolu', 'proteokelvinly', 'chemcalgram', 'chemcalnix', 'dynaphaseinc', 'uberheatdyn', 'thermocalorlr', 'dynaphasebit', 'exdensible', 'nanometrnix', 'chemmetry', 'genstatgram', 'nanometinc', 'biodensinix', 'thermometco', 'gencalnix', 'nanostatic', 'metametgen', 'protostatbit', 'intermetly', 'exasoluly', 'autoenthalpbit', 'micrometrgram', 'thermoenthalpry', 'nanophasely', 'thermocalorco', 'interdensigram', 'overmetrco', 'interarraydyn', 'nanoreactbit', 'multistatinc', 'calordyn', 'postphaseble', 'evocalble', 'autoheatlr', 'dynaarraytech', 'netboltzlr', 'thermostatbit', 'exboltztech', 'thermoensemblbit', 'instareactic', 'exstatco', 'netenthalpgen', 'metastategen', 'chemensemblic', 'proteostategen', 'microboltzdyn', 'netcalorble', 'postcalgen', 'instadensiry', 'oversoluic', 'multiboltzer', 'exacalnix', 'evometble', 'isoarraygen', 'interstatry', 'nanometrly', 'autoensemblbit', 'chemarraydyn', 'moldensiful', 'evostater', 'microspaceer', 'dynastatnix', 'intermetrly', 'syndensidyn', 'syncalic', 'biostateful', 'netdensinix', 'exaheatbit', 'intermetrlr', 'statelr', 'interspacenix', 'dynaboltznix', 'genenthalpco', 'molstatetech', 'overheatble', 'uberdensiic', 'netstatry', 'isometrry', 'nanoarrayic', 'autocalorry', 'molarrayer', 'transenthalper', 'protoensemblnix', 'netheatly', 'overphasebit', 'thermoarraybit', 'intermetble', 'exaspaceer', 'instadensigen', 'exphasedyn', 'proteocalorly', 'proteocalry', 'overarrayinc', 'synmetr', 'autometrgen', 'metakelviner']
